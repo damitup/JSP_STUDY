@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
+
+
 	<form action="joinProcess.jsp">
 		<input type="text" name="num1" />
 		<input type="text" name="num2" />

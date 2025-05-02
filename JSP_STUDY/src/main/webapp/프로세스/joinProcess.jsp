@@ -39,12 +39,12 @@ try {
     int result = pstmt.executeUpdate();
     //실패
     if(result == 0) {
-    	movePage="result2.jsp?msg=실패";
+    	movePage="result2.jsp?msg=1"; 	// 실패
     } else {
-    	movePage="result2.jsp?msg=성공";
+    	movePage="result2.jsp?msg=2";	// 성공
     }
     
-    response.sendRedirect("result2.jsp");
+    response.sendRedirect(movePage);
     
 }
 catch(Exception e) {
